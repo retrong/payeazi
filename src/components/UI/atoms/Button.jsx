@@ -1,12 +1,3 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-
-Button.PropTypes = {
-	children: PropTypes.string,
+export const Button = () => {
+	return <button className="bg-sky-500 hover:bg-sky-700">my button</button>;
 };
-
-const Button = ({ children }) => {
-	return <button className="bg-sky-500 hover:bg-sky-700">{children}</button>;
-};
-
-export default Button;

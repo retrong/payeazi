@@ -1,5 +1,9 @@
-import Button from './components/UI/atoms/Button.jsx';
+import { Button } from './components/UI/atoms/Button';
 
 export default function App() {
-	return <Button>my button</Button>;
+	return (
+		<div>
+			<Button>my button</Button>
+		</div>
+	);
 }
