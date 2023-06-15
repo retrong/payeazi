@@ -1,18 +1,21 @@
 import React from 'react';
-import { Button } from '../UI/atoms/Button';
+import Button from '../UI/atoms/Button';
 
 const landingPage = () => {
+    const handleClick = () => {
+        console.log('Button Clicked');
+    }
 	return (
-		<>
-			<nav className="bg-black ">
+		<div>
+			<nav className="">
 				<ul className='flex flex-row text-sky-400'>
 					<li>Home</li>
 					<li>About</li>
 					<li>Feature</li>
 				</ul>
-				<Button className="rounded" />
+                <Button onClick={handleClick}>Login</Button>
 			</nav>
-		</>
+		</div>
 	);
 };
 
