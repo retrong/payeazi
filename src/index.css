@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.text-nav{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.text-nav:hover{
+    color: #fff;
+    cursor: pointer;
+}

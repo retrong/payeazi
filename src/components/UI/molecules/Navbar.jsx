@@ -1,4 +1,5 @@
-import React from 'react';
+import { eazilogo } from '../../../assets';
+import { navLinks } from '../../../constants';
 import styles from '../../style';
 import Button from '../atoms/Button';
 
@@ -7,24 +8,34 @@ const Navbar = () => {
 			console.log('Button Clicked');
 		};
   return (
-		<div className={`${styles.paddingX} py-3`}>
-			<nav className="flex justify-between">
-				<img src="" alt="Payeazi" className='flex justify-start'/>
-				<div className=''>
-					<ul className="flex justify-evenly">
-						<li className='px-6'>Home</li>
-						<li>About</li>
-						<li className='px-6'>Feature</li>
-					</ul>
-				</div>
-				<div className=''>
-					<Button onClick={handleClick} className="rounded">
-						Login
-					</Button>
-					<Button>Sign Up</Button>
-				</div>
-			</nav>
-		</div>
+		<nav className={`w-full flex py-6 justify-between items-center`}>
+            
+			<img src={eazilogo} alt="Payeazi" className="flex justify-start w-[120px] h-[40px]" />
+
+            <div className='sm:flex hidden items-center'>
+                <ul className="list-none sm:flex hidden items-center flex-1">
+                    {navLinks.map((nav) => (
+                        <li 
+                            key={nav.id}
+                            className={`font-cabin font-normal text-white hover:text-secondary cursor-pointer text-[18px]`}
+                        >
+                            <a href={`#${nav.id}`}>
+                                {nav.title}
+                            </a>
+                        </li>
+
+                    ))}
+                </ul>
+
+                <div className="">
+                    <Button onClick={handleClick} className="">
+                        Login
+                    </Button>
+                    <Button className="">Sign Up</Button>
+                </div>
+            </div>
+
+		</nav>
 	);
 }
 
