@@ -21,7 +21,7 @@ const Navbar = () => {
 					<Button onClick={handleClick} className="rounded">
 						Login
 					</Button>
-					{/* <Button>Sign Up</Button> */}
+					<Button>Sign Up</Button>
 				</div>
 			</nav>
 		</div>

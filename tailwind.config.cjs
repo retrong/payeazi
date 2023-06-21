@@ -5,13 +5,13 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#00040f',
-				secondary: '',
+				primary: '#62B790',
+				secondary: '#0D1835',
 				dimWhite: '',
 				dimBlue: '',
 			},
 			fontFamily: {
-				poppins: ['Poppins', 'sans-serif'],
+				cabin: ['Cabin Condensed', 'sans-serif'],
 			},
 		},
 		screens: {

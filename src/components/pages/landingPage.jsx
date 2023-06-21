@@ -3,14 +3,14 @@ import Navbar from '../UI/molecules/Navbar';
 import styles from '../style';
 
 const landingPage = () => (
-    <div className='w-full overflow-hidden h-15 shadow'>
+    <section className='bg-primary w-full overflow-hidden h-15 shadow'>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>
                 <Navbar/>
             </div>
 
         </div>
-    </div>
+    </section>
 );
 
 
