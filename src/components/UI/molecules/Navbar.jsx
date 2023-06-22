@@ -17,7 +17,7 @@ const Navbar = () => {
                     {navLinks.map((nav) => (
                         <li 
                             key={nav.id}
-                            className={`font-cabin font-normal text-white hover:text-secondary cursor-pointer text-[18px]`}
+                            className={`font-cabin font-normal text-white hover:text-secondary cursor-pointer text-[18px] mr-8`}
                         >
                             <a href={`#${nav.id}`}>
                                 {nav.title}
@@ -37,6 +37,6 @@ const Navbar = () => {
 
 		</nav>
 	);
-}
+};
 
 export default Navbar
