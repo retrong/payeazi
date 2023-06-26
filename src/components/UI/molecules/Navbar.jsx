@@ -1,7 +1,7 @@
 import { eazilogo } from '../../../assets';
 import { navLinks } from '../../../constants';
 import Button from '../atoms/Button';
-import Sidebar from './Sidebar';
+import Sidebar from '../atoms/Sidebar';
 
 const Navbar = () => {
     const handleClick = () => {
