@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
 import styles from '../style';
 
@@ -11,7 +12,7 @@ const landingPage = () => (
 		</div>
 		<div className={`bg-primary ${styles.flexStart}`}>
 			<div className={`${styles.boxWidth}`}>
-				
+				<Hero />
 			</div>
 		</div>
 	</section>
