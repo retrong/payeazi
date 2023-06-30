@@ -5,7 +5,7 @@ import styles from '../style';
 
 const landingPage = () => (
 	<section className="bg-primary w-full overflow-hidden h-15 shadow">
-		<div className={`${styles.paddingX} ${styles.flexCenter}`}>
+		<div className={`${styles.paddingX} ${styles.flexCenter} mx-5 sm:mx-0`}>
 			<div className={`${styles.boxWidth}`}>
 				<Navbar />
 			</div>
