@@ -14,3 +14,9 @@
     color: #fff;
     cursor: pointer;
 }
+
+.bg_gradient{
+    background: linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
+    background: -webkit-linear-gradient(to right bottom, #0D1835, #62B790);
+    background: -moz-linear-gradient(to right bottom, #0D1835, #62B790);
+}
