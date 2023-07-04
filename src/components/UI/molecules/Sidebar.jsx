@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div
                 className={`${
                     toggle ? 'flex' : 'hidden'
-                } p-6 bg-secondary absolute top-20 right-0 my-2 min-w-[80%] h-full sidebar`}
+                } p-6 sidebar_gradient absolute top-20 right-0 my-2 min-w-[70%] h-full rounded-xl z-[100] sidebar`}
             >
                 <ul className="list-none flex flex-col items-center flex-1">
                     {navLinks.map((nav, index) => (

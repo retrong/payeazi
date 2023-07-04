@@ -1,7 +1,7 @@
 import React from 'react';
 import { creditCard } from '../../../assets';
 import styles from '../../style';
-import JoinButton from '../atoms/joinButton';
+// import JoinButton from '../atoms/joinButton';
 
 const Hero = () => (
 	<section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -16,13 +16,13 @@ const Hero = () => (
 				YOU WANT <br /> TO USE
 			</h1>
 
-            <div>
+            {/* <div className=' mt-20'>
                 <JoinButton />
-            </div>
+            </div> */}
 		</div>
 
-		<div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10`}>
-			<img src={creditCard} alt="creditCard" className="w-full h-[70%] object-contain absolute z-[5]"/>
+		<div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative mt-10`}>
+			<img src={creditCard} alt="creditCard" className="w-full h-[550px] object-contain absolute z-[5] right-10"/>
 		</div>
 	</section>
 );

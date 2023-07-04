@@ -17,6 +17,38 @@
 
 .bg_gradient{
     background: linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
-    background: -webkit-linear-gradient(to right bottom, #0D1835, #62B790);
-    background: -moz-linear-gradient(to right bottom, #0D1835, #62B790);
+    background: -webkit-linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
+    background: -moz-linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
+}
+
+.sidebar_gradient{
+    background: linear-gradient(to left bottom, #0D1835 0.79%, #fff);
+}
+
+.sidebar{
+    -webkit-animation: slide-right 0.5s ease-in-out;
+    animation: slide-right 0.5s ease-in-out;
+    -moz-animation: slide-right 0.5s ease-in-out;
+}
+
+@keyframes slide-right{
+    0% {
+        -webkit-transform: translateX(50%);
+        transform: translate(50%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes slide-right{
+    0% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }

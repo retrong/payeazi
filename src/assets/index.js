@@ -3,11 +3,16 @@ import worldMap from './WorldMap.png';
 import close from './close.svg';
 import eazilogo from './eazilogo.svg';
 import menu from './menu.svg';
+import orange from './orange.svg';
 import rightArrow from './right-arrow.png';
 
 export {
-    close, creditCard, eazilogo,
+    close,
+    creditCard,
+    eazilogo,
     menu,
-    rightArrow, worldMap
+    orange,
+    rightArrow,
+    worldMap
 };
 
