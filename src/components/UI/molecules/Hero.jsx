@@ -1,7 +1,7 @@
 import React from 'react';
 import { creditCard } from '../../../assets';
 import styles from '../../style';
-import JoinButton from '../atoms/joinButton';
+import JoinButton from '../atoms/JoinButton';
 
 const Hero = () => (
 	<section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>

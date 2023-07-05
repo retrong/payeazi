@@ -20,7 +20,7 @@ const Navbar = () => {
 					{navLinks.map((nav, index) => (
 						<li
 							key={nav.id}
-							className={`font-cabin font-normal text-white hover:text-secondary cursor-pointer text-[18px] ${
+							className={`font-cabin font-normal text-white hover:text-[#f9fbdf] cursor-pointer text-[18px] ${
 								index === navLinks.length - 1 ? 'mr-12' : 'mr-10'
 							}`}
 						>
@@ -33,8 +33,8 @@ const Navbar = () => {
 					SIGN UP
 				</Button>
 			</div>
-            
-            <Sidebar/>
+
+			<Sidebar />
 		</nav>
 	);
 };

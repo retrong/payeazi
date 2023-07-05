@@ -6,8 +6,8 @@ const Button = ({ children, onClick, disabled, styles }) => {
 		<button
 			onClick={onClick}
 			disabled={disabled}
-			className={`py-2 px-4 text-white border text-[13px] rounded-full ${styles} ${
-				disabled ? 'opacity-50 cursor-not-allowed' : 'hover:bg-secondary'
+			className={`py-2 px-4 text-white border text-[15px] font-medium rounded-full ${styles} ${
+				disabled ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#f9fbdf] hover:text-black'
 			}`}
 		>
 			{children}
