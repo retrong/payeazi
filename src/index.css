@@ -29,6 +29,7 @@
     -webkit-animation: slide-right 0.5s ease-in-out;
     animation: slide-right 0.5s ease-in-out;
     -moz-animation: slide-right 0.5s ease-in-out;
+    width: 100svw !important;
 }
 
 @keyframes slide-right{
