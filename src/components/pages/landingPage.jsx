@@ -4,6 +4,7 @@ import { orange } from '../../assets';
 import Feature from '../UI/molecules/Feature';
 import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
+import Stats from '../UI/molecules/Stats';
 import styles from '../style';
 
 const landingPage = () => (
@@ -23,12 +24,13 @@ const landingPage = () => (
 			<JoinButton />
 		</div> */}
 
-        <div className='z-[-1]'>
-            <img src={orange} alt="orange" className="w-[50%] h-[250px] max-md:hidden relative bottom-28 right-44" />
+        <div className='z-[-5]'>
+            <img src={orange} alt="orange" className="w-[50%] h-[20%] max-md:hidden relative bottom-28 right-44" />
         </div>
 
 		<div className={`${styles.flexStart} ${styles.paddingX}`}>
 			<div className={`${styles.boxWidth}`}>
+                <Stats />
 				<Feature />
 			</div>
 		</div>

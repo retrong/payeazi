@@ -1,3 +1,5 @@
+import { send, shield, star } from '../assets';
+
 export const navLinks = [
     {
         id: 'home',
@@ -17,23 +19,41 @@ export const navLinks = [
     }
 ];
 
+export const stats =[
+    {
+        id: 'stats-1',
+        title: 'User Active',
+        value: '3800+',
+    },
+    {
+        id: 'stats-2',
+        title: 'Trusted by Company',
+        value: '230+',
+    },
+    {
+        id: 'stats-3',
+        title: 'Transaction',
+        value: '$50M+',
+    },
+];
+
 export const features = [
 	{
 		id: 'feature-1',
-		icon: '',
-		title: '',
+		icon: star,
+		title: 'Rewards',
 		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
 	},
 	{
 		id: 'feature-2',
-		icon: '',
-		title: '',
+		icon: shield,
+		title: 'Secured',
 		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
 	},
 	{
 		id: 'feature-3',
-		icon: '',
-		title: '',
+		icon: send,
+		title: 'Balance Transfer',
 		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
 	},
 ];
