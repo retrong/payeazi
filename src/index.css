@@ -28,6 +28,10 @@
     text-fill-color: transparent;
 }
 
+.text-dimWhite{
+    color: #f3eeea;
+}
+
 .bg_gradient{
     background: linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
     background: -webkit-linear-gradient(to right bottom, #0D1835 0.79%, #62B790);

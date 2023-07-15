@@ -1,4 +1,8 @@
-import { send, shield, star } from '../assets';
+// import { send, shield, star } from '../assets';
+import send from '../assets/Send.svg';
+import shield from '../assets/Shield.svg';
+import star from '../assets/Star.svg';
+
 
 export const navLinks = [
     {
@@ -6,12 +10,12 @@ export const navLinks = [
         title: 'Home',
     },
     {
-        id: 'about',
-        title: 'About',
-    },
-    {
         id: 'features',
         title: 'Features',
+    },
+    {
+        id: 'product',
+        title: 'Product',
     },
     {
         id: 'clients',
@@ -42,18 +46,21 @@ export const features = [
 		id: 'feature-1',
 		icon: star,
 		title: 'Rewards',
-		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+		content:
+			'Making international payment of good and services has not being easier',
 	},
 	{
 		id: 'feature-2',
 		icon: shield,
 		title: 'Secured',
-		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+		content:
+			'Secure confirmation and authentication on all payments and transactions',
 	},
 	{
 		id: 'feature-3',
 		icon: send,
 		title: 'Balance Transfer',
-		content: 'lorem ipsum dolor sit amet, consectetur adipiscing',
+		content:
+			'Making international payment of good and services has not being easier',
 	},
 ];

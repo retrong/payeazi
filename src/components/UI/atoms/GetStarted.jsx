@@ -1,0 +1,20 @@
+import PropTypes from 'prop-types';
+import React from 'react';
+
+const GetStarted = ({ styles }) => {
+	return (
+		<button
+			type="button"
+			className={`py-4 px-6 bg-[#f9fbdf] font-poppins font-medium text-[18px] text-black border outline-none ${styles} rounded-[10px] hover:bg-transparent hover:text-white mt-4`}
+		>
+			Get Started
+		</button>
+	);
+};
+
+
+GetStarted.propTypes = {
+    styles: PropTypes.string,
+};
+
+export default GetStarted;
