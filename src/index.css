@@ -15,6 +15,19 @@
     cursor: pointer;
 }
 
+.text-gradient{
+    background: radial-gradient(
+        0.89% 0.98% at 71.16% 35.69%,
+        #defaf1 0.89%,
+        #0D1835 71.56%,
+        #62B790 55.12%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
 .bg_gradient{
     background: linear-gradient(to right bottom, #0D1835 0.79%, #62B790);
     background: -webkit-linear-gradient(to right bottom, #0D1835 0.79%, #62B790);

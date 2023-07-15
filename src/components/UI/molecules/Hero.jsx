@@ -9,10 +9,10 @@ const Hero = () => (
 			className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16`}
 		>
             <div className={`flex flex-col items-start `}>
-                <p className="text-gray-400 font-semibold leading-8 mb-3">
+                <p className="font-cabin text-gray-400 font-semibold ss:text-[20px] text-[18px] ss:leading-[18px] leading-[16px] mb-3">
                     FAST & SEEMLESS TRANSACTIONS
                 </p>
-                <h1 className="flex-1 font-cabin font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[85px] leading-[75px] tracking-wide uppercase">
+                <h1 className="flex-1 font-cabin font-semibold ss:text-[72px] text-[64px] text-white ss:leading-[85px] leading-[75px] tracking-wide uppercase">
                     Banking <br />
                     You Want <br /> To Use
                 </h1>
