@@ -3,6 +3,7 @@ import { orange } from '../../assets';
 import Feature from '../UI/molecules/Feature';
 import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
+import Product from '../UI/molecules/Product';
 import Stats from '../UI/molecules/Stats';
 import styles from '../style';
 
@@ -27,6 +28,7 @@ const landingPage = () => (
 			<div className={`${styles.boxWidth}`}>
                 <Stats />
 				<Feature />
+                <Product/>
 			</div>
 		</div>
 	</section>
