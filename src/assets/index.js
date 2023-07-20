@@ -1,4 +1,4 @@
-import bill from './Bill.png';
+import bill from './Bill.svg';
 import creditCard from './Credit-Card.png';
 import send from './Send.svg';
 import shield from './Shield.svg';

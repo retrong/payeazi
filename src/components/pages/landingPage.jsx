@@ -1,5 +1,6 @@
 import React from 'react';
 import { orange } from '../../assets';
+import Deals from '../UI/molecules/Deals';
 import Feature from '../UI/molecules/Feature';
 import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
@@ -29,6 +30,7 @@ const landingPage = () => (
                 <Stats />
 				<Feature />
                 <Product/>
+                <Deals />
 			</div>
 		</div>
 	</section>
