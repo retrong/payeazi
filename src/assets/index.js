@@ -11,6 +11,7 @@ import eazilogo from './eazilogo.svg';
 import mainlogo from './mainlogo.svg';
 import menu from './menu.svg';
 import orange from './orange.svg';
+import quote from './quotes.svg';
 import rightArrow from './right-arrow.png';
 
 export {
@@ -22,11 +23,9 @@ export {
     eazilogo,
     mainlogo,
     menu,
-    orange,
-    rightArrow,
+    orange, quote, rightArrow,
     send,
-    shield,
-    star,
+    shield, star,
     worldMap
 };
 

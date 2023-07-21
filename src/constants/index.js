@@ -64,3 +64,30 @@ export const features = [
 			'Making international payment of good and services has not being easier',
 	},
 ];
+
+export const feedback = [
+	{
+		id: 'feedback-1',
+		content:
+			'Making international payment of good and services has not being easier',
+		name: 'Steve Smith',
+		title: 'Find and Lead',
+		img: star,
+	},
+	{
+		id: 'feedback-2',
+		content:
+			'Making international payment of good and services has not being easier',
+		name: 'Steve Drop',
+		title: 'Find and Lead',
+		img: star,
+	},
+	{
+		id: 'feedback-3',
+		content:
+			'Making international payment of good and services has not being easier',
+		name: 'Steve Andrew',
+		title: 'Find and Lead',
+		img: star,
+	},
+];

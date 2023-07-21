@@ -6,6 +6,7 @@ import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
 import Product from '../UI/molecules/Product';
 import Stats from '../UI/molecules/Stats';
+import Testimonies from '../UI/molecules/Testimonies';
 import styles from '../style';
 
 const landingPage = () => (
@@ -31,6 +32,7 @@ const landingPage = () => (
 				<Feature />
                 <Product/>
                 <Deals />
+                <Testimonies />
 			</div>
 		</div>
 	</section>
