@@ -1,7 +1,7 @@
 import React from 'react';
 import { worldMap } from '../../../assets';
 import styles, { layout } from '../../style';
-import GetStarted from '../atoms/GetStarted';
+// import GetStarted from '../atoms/GetStarted';
 
 const Deals = () => {
   return (
@@ -17,13 +17,14 @@ const Deals = () => {
 					quisquam quis? Recusandae, quo enim aspernatur blanditiis dicta
 					voluptas quisquam perferendis?
 				</p>
-				<GetStarted />
+				{/* <GetStarted /> */}
+				<button className="button-started mt-5">Get Started</button>
 			</div>
 			<div className={`${layout.sectionImg}`}>
 				<img
 					src={worldMap}
 					alt="worldmap"
-					className="w-[100%] h-[100%] z-[5]"
+					className="w-[100%] h-[100%] z-[5] object-contain"
 				/>
 			</div>
 		</section>

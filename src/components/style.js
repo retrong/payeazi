@@ -4,7 +4,7 @@ const styles = {
 	heading2:
 		'font-cabin font-semibold xs:text-[52px] text-[42px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
 	paragraph:
-		'font-cabin font-normal text-dimWhite text-[24px] leading-[30.8px]',
+		'font-cabin font-normal text-dimWhite text-[20px] leading-[28px]',
 
 	flexCenter: 'flex justify-center items-center',
 	flexStart: 'flex justify-center items-start',

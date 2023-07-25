@@ -13,6 +13,7 @@ import menu from './menu.svg';
 import orange from './orange.svg';
 import quote from './quotes.svg';
 import rightArrow from './right-arrow.png';
+import tesImg from './test-img.png';
 
 export {
     apple,
@@ -26,6 +27,7 @@ export {
     orange, quote, rightArrow,
     send,
     shield, star,
+    tesImg,
     worldMap
 };
 

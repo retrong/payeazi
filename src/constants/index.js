@@ -1,7 +1,4 @@
-// import { send, shield, star } from '../assets';
-import send from '../assets/Send.svg';
-import shield from '../assets/Shield.svg';
-import star from '../assets/Star.svg';
+import { send, shield, star, tesImg } from '../assets';
 
 
 export const navLinks = [
@@ -72,7 +69,7 @@ export const feedback = [
 			'Making international payment of good and services has not being easier',
 		name: 'Steve Smith',
 		title: 'Find and Lead',
-		img: star,
+		img: tesImg,
 	},
 	{
 		id: 'feedback-2',
@@ -80,7 +77,7 @@ export const feedback = [
 			'Making international payment of good and services has not being easier',
 		name: 'Steve Drop',
 		title: 'Find and Lead',
-		img: star,
+		img: tesImg,
 	},
 	{
 		id: 'feedback-3',
@@ -88,6 +85,6 @@ export const feedback = [
 			'Making international payment of good and services has not being easier',
 		name: 'Steve Andrew',
 		title: 'Find and Lead',
-		img: star,
+		img: tesImg,
 	},
 ];

@@ -5,7 +5,7 @@ const GetStarted = ({ styles }) => {
 	return (
 		<button
 			type="button"
-			className={`py-4 px-6 bg-[#f9fbdf] font-poppins font-medium text-[18px] text-black border outline-none ${styles} rounded-[10px] hover:bg-transparent hover:text-white mt-4`}
+			className={`py-4 px-6 bg-[#f9fbdf] font-poppins font-medium text-[18px] text-black border outline-none ${styles} rounded-[10px] hover:bg-transparent hover:text-white mt-4 button-started`}
 		>
 			Get Started
 		</button>
