@@ -19,11 +19,13 @@ const Testimonies = () => (
 				</p>
 			</div>
 		</div>
-		<div>
+		<div className={`flex flex-wrap justify-center w-full relative`}>
 			{feedback.map((card) => (
 				<FeedbackCard key={card.id} {...card} />
 			))}
 		</div>
+
+	{/*	style the feedback card to multiple cards arranged horizontally*/}
 	</section>
 );
 
