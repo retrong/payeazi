@@ -8,6 +8,7 @@ import Product from '../UI/molecules/Product';
 import Stats from '../UI/molecules/Stats';
 import Testimonies from '../UI/molecules/Testimonies';
 import styles from '../style';
+import Cta from "../UI/molecules/Cta.jsx";
 
 const landingPage = () => (
 	<section className="bg_gradient w-full overflow-hidden h-15 shadow">
@@ -33,6 +34,7 @@ const landingPage = () => (
                 <Product/>
                 <Deals />
                 <Testimonies />
+				<Cta />
 			</div>
 		</div>
 	</section>

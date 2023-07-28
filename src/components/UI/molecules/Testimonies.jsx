@@ -19,7 +19,7 @@ const Testimonies = () => (
 				</p>
 			</div>
 		</div>
-		<div className={`flex flex-wrap justify-center w-full relative`}>
+		<div className={`flex flex-wrap justify-center sm:justify-start w-full relative`}>
 			{feedback.map((card) => (
 				<FeedbackCard key={card.id} {...card} />
 			))}
