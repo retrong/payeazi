@@ -1,15 +1,15 @@
 import React from 'react';
 import { orange } from '../../assets';
+import Cta from "../UI/molecules/Cta.jsx";
 import Deals from '../UI/molecules/Deals';
 import Feature from '../UI/molecules/Feature';
+import Footer from "../UI/molecules/Footer.jsx";
 import Hero from '../UI/molecules/Hero';
 import Navbar from '../UI/molecules/Navbar';
 import Product from '../UI/molecules/Product';
 import Stats from '../UI/molecules/Stats';
 import Testimonies from '../UI/molecules/Testimonies';
 import styles from '../style';
-import Cta from "../UI/molecules/Cta.jsx";
-import Footer from "../UI/molecules/Footer.jsx";
 
 const landingPage = () => (
 	<section className="bg_gradient w-full overflow-hidden h-15 shadow">
@@ -39,8 +39,8 @@ const landingPage = () => (
 			</div>
 		</div>
 
-		<div className="bg-black">
-			<div className={`${styles.paddingX}`}>
+		<div className={`bg-black ${styles.paddingX}`}>
+			<div className={`${styles.boxWidth}`}>
 				<Footer />
 			</div>
 		</div>

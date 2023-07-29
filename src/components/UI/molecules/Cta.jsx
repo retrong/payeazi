@@ -10,7 +10,7 @@ const Cta = () => {
         <p className={`font-cabin font-normal text-black text-[20px] leading-[28px] max-w-[470px] mt-3`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
 
-      <div className={`${styles.flexCenter} ml-0 sm:ml-10`}>
+      <div className={`${styles.flexCenter} ml-0 md:ml-10`}>
         <GetStarted />
       </div>
     </section>
