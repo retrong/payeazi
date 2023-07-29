@@ -11,7 +11,7 @@ import Stats from '../UI/molecules/Stats';
 import Testimonies from '../UI/molecules/Testimonies';
 import styles from '../style';
 
-const landingPage = () => (
+const LandingPage = () => (
 	<section className="bg_gradient w-full overflow-hidden h-15 shadow">
 		<div className={`${styles.paddingX} ${styles.flexCenter} mx-5 sm:mx-0`}>
 			<div className={`${styles.boxWidth}`}>
@@ -48,4 +48,4 @@ const landingPage = () => (
 );
 
 
-export default landingPage;
+export default LandingPage;
