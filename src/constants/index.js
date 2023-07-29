@@ -1,4 +1,4 @@
-import { send, shield, star, tesImg } from '../assets';
+import { facebook, insta, linkedin, send, shield, star, tesImg, twitter } from '../assets';
 
 
 export const navLinks = [
@@ -86,5 +86,86 @@ export const feedback = [
 		name: 'Steve Andrew',
 		title: 'Find and Lead',
 		img: tesImg,
+	},
+];
+
+export const footerLinks = [
+	{
+		title: "Main",
+		links: [
+			{
+				name: "First",
+				link: "https://payeazy.com/first/",
+			},
+			{
+				name: "Second",
+				link: "https://payeazy.com/second/",
+			},
+			{
+				name: "Third",
+				link: "https://payeazy.com/third/",
+			},
+			{
+				name: "Fourth",
+				link: "https://payeazy.com/fourth/",
+			},
+		],
+	},
+	{
+		title: "Community",
+		links: [
+			{
+				name: "Help Center",
+				link: "https://payeazy.com/help-center",
+			},
+			{
+				name: "Partners",
+				link: "https://payeazy.com/partners",
+			},
+			{
+				name: "Suggestions",
+				link: "https://payeazy.com/suggestions",
+			},
+			{
+				name: "Blog",
+				link: "https://payeazy.com/blog",
+			},
+		],
+	},
+	{
+		title: "Partner",
+		links: [
+			{
+				name: "Our Partners",
+				link: "https://payeazy.com/partners",
+			},
+			{
+				name: "Become a Partner",
+				link: "https://payeazy.com/partners",
+			},
+		],
+	},
+];
+
+export const socialLink = [
+	{
+		id: "social-link-1",
+		icon: insta,
+		link: "https://instagram.com/",
+	},
+	{
+		id: "social-link-2",
+		icon: facebook,
+		link: "https://www.facebook.com",
+	},
+	{
+		id: "social-link-3",
+		icon: twitter,
+		link: "https://www.twitter.com",
+	},
+	{
+		id: "social-link-4",
+		icon: linkedin,
+		link: "https://www.linkedin.com",
 	},
 ];

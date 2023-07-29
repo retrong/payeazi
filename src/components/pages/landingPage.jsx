@@ -9,6 +9,7 @@ import Stats from '../UI/molecules/Stats';
 import Testimonies from '../UI/molecules/Testimonies';
 import styles from '../style';
 import Cta from "../UI/molecules/Cta.jsx";
+import Footer from "../UI/molecules/Footer.jsx";
 
 const landingPage = () => (
 	<section className="bg_gradient w-full overflow-hidden h-15 shadow">
@@ -35,6 +36,12 @@ const landingPage = () => (
                 <Deals />
                 <Testimonies />
 				<Cta />
+			</div>
+		</div>
+
+		<div className="bg-black">
+			<div className={`${styles.paddingX}`}>
+				<Footer />
 			</div>
 		</div>
 	</section>

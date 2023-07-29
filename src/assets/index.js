@@ -14,6 +14,10 @@ import orange from './orange.svg';
 import quote from './quotes.svg';
 import rightArrow from './right-arrow.png';
 import tesImg from './test-img.png';
+import insta from './instagram.svg';
+import facebook from './facebook.svg';
+import twitter from './twitter.svg';
+import linkedin from './linkedin.svg';
 
 export {
     apple,
@@ -28,6 +32,10 @@ export {
     send,
     shield, star,
     tesImg,
-    worldMap
+    worldMap,
+    insta,
+    facebook,
+    twitter,
+    linkedin
 };
 
