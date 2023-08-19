@@ -1,3 +1,4 @@
+import errorPage from './404-error-page.gif';
 import bill from './Bill.svg';
 import creditCard from './Credit-Card.png';
 import send from './Send.svg';
@@ -8,16 +9,17 @@ import apple from './apple.png';
 import close from './close.svg';
 import driod from './droid.svg';
 import eazilogo from './eazilogo.svg';
+import facebook from './facebook.svg';
+import insta from './instagram.svg';
+import linkedin from './linkedin.svg';
 import mainlogo from './mainlogo.svg';
 import menu from './menu.svg';
 import orange from './orange.svg';
 import quote from './quotes.svg';
 import rightArrow from './right-arrow.png';
 import tesImg from './test-img.png';
-import insta from './instagram.svg';
-import facebook from './facebook.svg';
 import twitter from './twitter.svg';
-import linkedin from './linkedin.svg';
+import logoblack from './logoblack.svg';
 
 export {
     apple,
@@ -25,17 +27,12 @@ export {
     close,
     creditCard,
     driod,
-    eazilogo,
-    mainlogo,
+    eazilogo, errorPage, facebook, insta, linkedin, mainlogo,
     menu,
     orange, quote, rightArrow,
     send,
     shield, star,
-    tesImg,
-    worldMap,
-    insta,
-    facebook,
-    twitter,
-    linkedin
+    tesImg, twitter, worldMap,
+    logoblack
 };
 

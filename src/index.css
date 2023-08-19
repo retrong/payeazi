@@ -77,7 +77,7 @@
 
 .feature-card:hover{
     background: #3b7367;
-    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    box-shadow: 0 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 .feedback-card{
@@ -87,6 +87,8 @@
 .feedback-card:hover{
     background: #3b7367;
 }
+
+/*Button styling*/
 
 .button-started {
     padding: 1em 1.5em;
