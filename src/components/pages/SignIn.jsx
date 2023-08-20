@@ -17,18 +17,18 @@ class SignIn extends React.Component {
     handleSubmit = event => {
         event.preventDefault();
         this.setState({ email: '', password: '' });
-    }
+    };
 
     handleChange = event => {
         const { value, name } = event.target;
         this.setState({ [name]: value })
-    }
+    };
 
     render() {
         return (
             <section className={`overflow-hidden h-[100svh] flex justify-center ${styles.flexCenter}`}>
                 <div className={`flex-col flex-wrap sign-in-container py-[50px] px-[50px]`}>
-                    <div className={`py-2 w-auto sm:w-[350px]`}>
+                    <div className={`py-2 w-auto sm:w-[350px] px-2`}>
                         <div className='flex justify-center'>
                             <img src={logoblack} alt='main logo' className='h-[60px] w-[100px] object-contain' />
                         </div>

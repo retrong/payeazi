@@ -1,8 +1,8 @@
-
 import React from 'react';
-import '../form-input.css'
+import '../form-input.css';
+import PropTypes from "prop-types";
 
-// eslint-disable-next-line react/prop-types
+
 const FormInput = ({ handleChange, label, ...otherProps}) => (
         <div className="group">
             <input className="form-input" onChange={handleChange} />
@@ -10,5 +10,9 @@ const FormInput = ({ handleChange, label, ...otherProps}) => (
         </div>
 );
 
+FormInput.propTypes = {
+    handleChange: PropTypes.func,
+    label: PropTypes.func,
+};
 
 export default FormInput;

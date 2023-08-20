@@ -7,8 +7,9 @@ import ErrorPage from "./components/pages/error-page";
 export default function App() {
     const router = createBrowserRouter(
         createRoutesFromElements(
-            <Route path="/" element={<Root />} errorElement={<ErrorPage/>}>
-                <Route exact index element={ <LandingPage /> } />
+            <Route errorElement={<ErrorPage/>}>
+                <Route exact path="/" element={ <Root /> } />
+                <Route path="/home" element={ <LandingPage /> } />
                 <Route path="/signin" element={ <SignIn /> } />
             </Route>
         )
