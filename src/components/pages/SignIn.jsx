@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../style.js';
-// import FormInput from '../UI/molecules/form-input.component'
+import FormInput from '../UI/molecules/form-input.component'
 import './SignIn-Signout.css'
 import {logoblack} from '../../assets'
 

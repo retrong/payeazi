@@ -1,6 +1,6 @@
 import React from 'react';
-import PropTypes from "prop-types";
-import '../form-input.css'
+import '../form-input.css';
+
 
 const FormInput = ({ handleChange, label, ...otherProps}) => (
         <div className="group">
@@ -9,9 +9,6 @@ const FormInput = ({ handleChange, label, ...otherProps}) => (
         </div>
 );
 
-FormInput.propTypes = {
-    handleChange: PropTypes.func,
-    label: PropTypes.func,
-};
+
 
 export default FormInput;
