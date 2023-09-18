@@ -1,8 +1,8 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import ErrorPage from "./components/pages/error-page";
 import LandingPage from './components/pages/LandingPage';
 import SignIn from "./components/pages/SignIn.jsx";
 import Root from "./routes/Root";
-import ErrorPage from "./components/pages/error-page";
 
 export default function App() {
     const router = createBrowserRouter(
