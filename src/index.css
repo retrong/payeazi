@@ -116,3 +116,7 @@
 .button-started:active {
     transform: translateY(-1px);
 }
+
+.cta-button{
+    @apply text-black hover:border-2 hover:border-black !important;
+}

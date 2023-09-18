@@ -11,7 +11,7 @@ const Cta = () => {
       </div>
 
       <div className={`${styles.flexCenter} ml-0 md:ml-10`}>
-        <GetStarted />
+        <GetStarted styles="cta-button"/>
       </div>
     </section>
   )
