@@ -120,3 +120,7 @@
 .cta-button{
     @apply text-black hover:border-2 hover:border-black !important;
 }
+
+.signin-header{
+    @apply flex flex-row hover:border-b-2 hover:border-black;
+}

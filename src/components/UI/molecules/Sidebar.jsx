@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { close, menu } from '../../../assets';
 import { navLinks } from '../../../constants';
+import Button from '../atoms/Button';
 
 const Sidebar = () => {
     const [toggle, setToggle] = useState(false);
@@ -17,7 +19,7 @@ const Sidebar = () => {
             <div
                 className={`${
                     toggle ? 'flex' : 'hidden'
-                } p-6 sidebar_gradient absolute top-20 right-0 my-2 min-w-[70%] h-full rounded-xl z-[100] sidebar`}
+                } p-6 sidebar_gradient absolute flex-col top-20 right-0 my-2 h-full rounded-xl z-[100] sidebar`}
             >
                 <ul className="list-none flex flex-col items-center flex-1">
                     {navLinks.map((nav, index) => (
@@ -32,6 +34,13 @@ const Sidebar = () => {
                     ))}
                     <span className="w-[90%] h-[1px] border"></span>
                 </ul>
+
+                <Link to="/signin">
+                    <Button styles="">
+                        SIGN UP
+                    </Button>
+                </Link>
+
             </div>
         </div>
     );

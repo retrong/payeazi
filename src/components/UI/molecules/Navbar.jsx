@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { eazilogo } from '../../../assets';
 import { navLinks } from '../../../constants';
 import Button from '../atoms/Button';
@@ -29,9 +30,12 @@ const Navbar = () => {
 					))}
 				</ul>
 
-				<Button onClick={handleClick} className="">
-					SIGN UP
-				</Button>
+                <Link to="/signin">
+                    <Button onClick={handleClick} className="">
+                        SIGN UP
+                    </Button>
+                </Link>
+
 			</div>
 
 			<Sidebar />
