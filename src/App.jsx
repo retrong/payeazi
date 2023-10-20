@@ -1,4 +1,5 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import { CreateAcct } from './components/pages/CreateAcct.jsx';
 import ErrorPage from "./components/pages/error-page";
 import LandingPage from './components/pages/LandingPage';
 import SignIn from "./components/pages/SignIn.jsx";
@@ -11,6 +12,8 @@ export default function App() {
                 <Route exact path="/" element={ <Root /> } />
                 <Route path="/home" element={ <LandingPage /> } />
                 <Route path="/signin" element={ <SignIn /> } />
+                <Route path='/register' element={ <CreateAcct /> }/>
+
             </Route>
         )
     )

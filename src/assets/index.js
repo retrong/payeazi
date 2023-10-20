@@ -13,7 +13,7 @@ import eazilogo from './eazilogo.svg';
 import facebook from './facebook.svg';
 import insta from './instagram.svg';
 import linkedin from './linkedin.svg';
-import logoblack from './logoblack.svg';
+import logoBlack from './logoblack.svg';
 import mainlogo from './mainlogo.svg';
 import menu from './menu.svg';
 import orange from './orange.svg';
@@ -27,7 +27,7 @@ export {
     close,
     creditCard,
     driod,
-    eazilogo, errorPage, facebook, insta, linkedin, logoblack, mainlogo,
+    eazilogo, errorPage, facebook, insta, linkedin, logoBlack, mainlogo,
     menu,
     orange, quote, rightArrow,
     send,

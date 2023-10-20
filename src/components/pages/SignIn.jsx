@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { backArrow, logoblack } from '../../assets';
+import { backArrow, logoBlack } from '../../assets';
 import FormInput from '../UI/molecules/form-input.component';
 import styles from '../style.js';
 import './SignIn-Signout.css';
@@ -36,21 +36,20 @@ class SignIn extends React.Component {
                     
 
                 </header> */}
+                
                 <section className={`overflow-hidden h-[100svh] flex flex-col justify-center ${styles.flexCenter}`}>
                     <header className={`${styles.flexLStart} w-full px-[32px] sm:px-[24px]`} >
-                        <Link to="/home" className='signin-header'>
+                        <Link to="/home" className='signin-header mb-5'>
                             <img src={backArrow} alt="Back home" className='w-[25px] object-contain mr-2'/>
                             <h2 className={`font-cabin font-semibold xs:text-[20px] text-[18px] xs:leading-[30.8px] leading-[66.8px] w-full text-black`}>Home</h2>
                         </Link>
-                    
 
                     </header>
-
 
                     <div className={`flex-col flex-wrap sign-in-container py-[50px] px-[50px]`}>
                         <div className={`py-2 w-auto sm:w-[350px] px-2`}>
                             <div className='flex justify-center'>
-                                <img src={logoblack} alt='main logo' className='h-[60px] w-[100px] object-contain' />
+                                <img src={logoBlack} alt='main logo' className='h-[60px] w-[100px] object-contain' />
                             </div>
                             <h1 className='font-cabin font-[600] xs:text-[24px] text-[30px] xs:leading-[64.8px] leading-[60.8px] w-full'>I already have an account</h1>
                             <span className='font-cabin font-normal text-[16px] leading-[22px]'>Sign in with your email and password</span>
@@ -74,7 +73,7 @@ class SignIn extends React.Component {
                                     required
                                 />
                                 <input type='submit' value='Sign in' className='submit-button bg-gray-200 font-cabin'/>
-                                <p className='mt-5 flex flex-row justify-center gap-2 account-link'> No account? <a href='#' className='text-blue-400'> Create one </a></p>
+                                <p className='mt-5 flex flex-row justify-center gap-2 account-link'> No account? <Link to='/register' className='text-blue-400'> Create one </Link></p>
                             </form>
                         </div>
 
