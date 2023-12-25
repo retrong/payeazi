@@ -40,7 +40,6 @@ export const CreateAcct = () => {
                         </div>
 
                     </div>
-
                 </div>
 
             </div>
